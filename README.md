@@ -23,6 +23,8 @@ Medical screening infrastructure requires high statistical sensitivity to minimi
 ## 📊 Performance & Evaluation
 The model is benchmarked comprehensively using strict clinical evaluation criteria: Accuracy, Precision, Recall, and the Macro F1-Score. The underlying soft-voting mechanics aggregate continuous array probability vectors, maximizing predictive coverage over the minority class (No Disease).
 
+![Feature Importance](feature_importance.png)
+
 ## 💻 How To Run the Infrastructure Locally
 1. Clone this repository directly onto your system setup:
    ```bash
